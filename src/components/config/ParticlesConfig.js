@@ -90,9 +90,9 @@ const ParticlesConfig = {
         }
       },
       "bubble": {
-        "distance": 131.85970127784034,
-        "size": 0,
-        "duration": 2,
+        "distance": 367.39864864864836,
+        "size": 12.668918918918909,
+        "duration": 2.8716216216216193,
         "opacity": 0,
         "speed": 3
       },
