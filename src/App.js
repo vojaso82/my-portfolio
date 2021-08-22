@@ -23,8 +23,7 @@ function App() {
       <ParticlesBackground/>
       <Home/>
       <AboutMe/>
-      <MyProjects/>
-      <ContactMe/>
+     
 
      
       

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ParticlesConfig = {
   "particles": {
@@ -10,7 +10,7 @@ const ParticlesConfig = {
       }
     },
     "color": {
-      "value": "#6969f5"
+      "value": "#67a1a4"
     },
     "shape": {
       "type": "circle",
@@ -90,9 +90,9 @@ const ParticlesConfig = {
         }
       },
       "bubble": {
-        "distance": 367.39864864864836,
+        "distance": 95.89796456570207,
         "size": 12.668918918918909,
-        "duration": 2.8716216216216193,
+        "duration": 2.077789232256878,
         "opacity": 0,
         "speed": 3
       },
@@ -110,4 +110,5 @@ const ParticlesConfig = {
   },
   "retina_detect": true
 }
+
 export default ParticlesConfig;
