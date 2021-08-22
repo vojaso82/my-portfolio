@@ -3,14 +3,14 @@ import React from 'react';
 const ParticlesConfig = {
   "particles": {
     "number": {
-      "value": 43,
+      "value": 62,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#67a1a4"
+      "value": "#ebebed"
     },
     "shape": {
       "type": "circle",
@@ -28,44 +28,44 @@ const ParticlesConfig = {
       }
     },
     "opacity": {
-      "value": 0.7970516978779478,
+      "value": 0.8286181017543023,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
-        "opacity_min": 0,
+        "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 7.891600969088593,
+      "value": 1,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 4,
-        "size_min": 0.3,
-        "sync": false
+        "enable": true,
+        "speed": 1,
+        "size_min": 0.1,
+        "sync": true
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 126.26561550541749,
-      "color": "#2e40cd",
-      "opacity": 0.4,
-      "width": 1
+      "distance": 60,
+      "color": "#7474c3",
+      "opacity": 0.9075341114451881,
+      "width": 0.7891600969088592
     },
     "move": {
       "enable": true,
-      "speed": 0.5,
+      "speed": 0.1,
       "direction": "none",
       "random": true,
       "straight": false,
-      "out_mode": "bounce",
+      "out_mode": "out",
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 600,
-        "rotateY": 600
+        "rotateX": 552.4120678362015,
+        "rotateY": 1183.740145363289
       }
     }
   },
@@ -86,18 +86,18 @@ const ParticlesConfig = {
       "grab": {
         "distance": 400,
         "line_linked": {
-          "opacity": 1
+          "opacity": 0.5
         }
       },
       "bubble": {
-        "distance": 95.89796456570207,
-        "size": 12.668918918918909,
-        "duration": 2.077789232256878,
-        "opacity": 0,
+        "distance": 155.83419241926586,
+        "size": 4,
+        "duration": 0.3,
+        "opacity": 1,
         "speed": 3
       },
       "repulse": {
-        "distance": 327.65137893281536,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
