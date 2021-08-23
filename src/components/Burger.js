@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 import './Burger.css';
 import BurgerConfig from './BurgerConfig';
 
 function Burger() {
 
-const [isOpen, setIsOpen] = useState(false);
-const toggle = () => setIsOpen(!isOpen);
-const hide = () => setIsOpen(false);
-const show = () => setIsOpen(true);
+// const [isOpen, setIsOpen] = useState(false);
+// const toggle = () => setIsOpen(!isOpen);
+// const hide = () => setIsOpen(false);
+// const show = () => setIsOpen(true);
   
 const showSettings = (e) => {
-    console.log(e)
 e.preventDefault();
 }   
 
@@ -22,12 +22,12 @@ e.preventDefault();
 
     return (
         <div>
-    <Menu onClick={toggle} right width="250px" styles={ BurgerConfig }>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="projects" className="menu-item" href="/projects">Projects</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={e=> showSettings(e) } className="menu-item--small" href=""></a>
+    <Menu right width="220px" styles={ BurgerConfig }>
+        <Link to="/" className="menu-item">Home</Link>
+        <Link to="/about" className="menu-item">About</Link>
+        <Link to="/projects" className="menu-item">Projects</Link>
+        <Link to="/contact" className="menu-item">Contact</Link>
+        <Link onClick={showSettings} className="menu-item--small"></Link>
     </Menu>
         </div>
     )

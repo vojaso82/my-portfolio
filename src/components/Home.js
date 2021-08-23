@@ -7,9 +7,9 @@ function Home() {
     return (
         <div className="text_div center_all">
             <div className="center_all">
-            <h1>VOJISLAV ZAJA</h1>
-            <h2>Web Developer</h2>
-            <p>Hi. I produce elegant, performant, and accessible digital experiences</p>
+            <h1 className="my-name">Vojislav Zaja</h1>
+            <h2 className="job-title">Web Developer</h2>
+            <p className="description">Hi. I produce elegant, performant, and accessible digital experiences</p>
             </div>
         </div>
     )

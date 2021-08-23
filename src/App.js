@@ -11,8 +11,6 @@ import { slide as Menu } from 'react-burger-menu';
 import Burger from './components/Burger';
 
 
-
-
 function App() {
 
   return (
@@ -24,12 +22,7 @@ function App() {
       <Route exact path='/about' component={AboutMe} />
       <Route exact path='/projects' component={MyProjects} />
       <Route exact path='/contact' component={ContactMe} />
-
-
       </Switch>
-
-     
-      
     </div>
   );
 
