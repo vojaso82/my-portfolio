@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactMe() {
     return (
-        <div>
+        <div className="contact-me">
             <h1>CONTACT ME</h1>
         </div>
     )

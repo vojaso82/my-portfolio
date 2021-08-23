@@ -7,7 +7,8 @@ import MyProjects from './components/MyProjects';
 import ContactMe from './components/ContactMe';
 import ParticlesBackground from './components/ParticlesBackground';
 import { HashLink } from 'react-router-hash-link';
-import { stack as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
+import Burger from './components/Burger';
 
 
 
@@ -16,12 +17,13 @@ function App() {
 
   return (
     <div className="App">
+      <Burger/>
       <ParticlesBackground/>
       <Switch>
       <Route exact path='/' component={Home} />
-      <Route exact path='/AboutMe' component={AboutMe} />
-      <Route exact path='/MyProjects' component={MyProjects} />
-      <Route exact path='/ContactMe' component={ContactMe} />
+      <Route exact path='/about' component={AboutMe} />
+      <Route exact path='/projects' component={MyProjects} />
+      <Route exact path='/contact' component={ContactMe} />
 
 
       </Switch>
