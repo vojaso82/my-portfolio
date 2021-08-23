@@ -7,6 +7,7 @@ import MyProjects from './components/MyProjects';
 import ContactMe from './components/ContactMe';
 import ParticlesBackground from './components/ParticlesBackground';
 import { HashLink } from 'react-router-hash-link';
+import { stack as Menu } from 'react-burger-menu';
 
 
 
@@ -18,7 +19,9 @@ function App() {
       <ParticlesBackground/>
       <Switch>
       <Route exact path='/' component={Home} />
-
+      <Route exact path='/AboutMe' component={AboutMe} />
+      <Route exact path='/MyProjects' component={MyProjects} />
+      <Route exact path='/ContactMe' component={ContactMe} />
 
 
       </Switch>
