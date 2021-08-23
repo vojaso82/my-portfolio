@@ -1,4 +1,23 @@
 .App {
-  text-align: center;
+  /* background-color: #050716;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100vw; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-color: #050716;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
+
+.canvas {
+  display: block;
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+} /* ---- particles.js container ---- */

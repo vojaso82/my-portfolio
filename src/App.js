@@ -13,17 +13,15 @@ import { HashLink } from 'react-router-hash-link';
 
 function App() {
 
-
-
-
   return (
     <div className="App">
-      
-      
       <ParticlesBackground/>
-      <Home/>
-      <AboutMe/>
-     
+      <Switch>
+      <Route exact path='/' component={Home} />
+
+
+
+      </Switch>
 
      
       

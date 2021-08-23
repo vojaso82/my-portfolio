@@ -32,7 +32,7 @@ const ParticlesConfig = {
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 1,
+        "speed": 1.5,
         "opacity_min": 0.1,
         "sync": false
       }
@@ -43,20 +43,20 @@ const ParticlesConfig = {
       "anim": {
         "enable": true,
         "speed": 1,
-        "size_min": 0.1,
+        "size_min": 1.2,
         "sync": true
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 60,
-      "color": "#7474c3",
+      "distance": 85,
+      "color": "#5d61a7",
       "opacity": 0.9075341114451881,
       "width": 0.7891600969088592
     },
     "move": {
       "enable": true,
-      "speed": 0.1,
+      "speed": 0.3,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -90,14 +90,14 @@ const ParticlesConfig = {
         }
       },
       "bubble": {
-        "distance": 155.83419241926586,
+        "distance": 215.77042027282963,
         "size": 4,
-        "duration": 0.3,
-        "opacity": 1,
+        "duration": 3.516258700742409,
+        "opacity": 0.791158207667042,
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 327.65137893281536,
         "duration": 0.4
       },
       "push": {
