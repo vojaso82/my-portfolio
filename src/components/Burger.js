@@ -1,22 +1,28 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './Burger.css';
 import BurgerConfig from './BurgerConfig';
 
 function Burger() {
 
+const [isOpen, setIsOpen] = useState(false);
+const toggle = () => setIsOpen(!isOpen);
+const hide = () => setIsOpen(false);
+const show = () => setIsOpen(true);
+  
 const showSettings = (e) => {
+    console.log(e)
 e.preventDefault();
 }   
 
-  
-        
-      
-
+// const HandleChange = (e) => {
+//     setBurger(e.target.value);
+//     // console.log(calories);
+//   };
 
     return (
         <div>
-    <Menu right width="250px" styles={ BurgerConfig }>
+    <Menu onClick={toggle} right width="250px" styles={ BurgerConfig }>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="projects" className="menu-item" href="/projects">Projects</a>

@@ -31,7 +31,8 @@ let styles = {
       background: 'rgba(0, 0, 0, 1)',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
-      height: '50%'
+      height: '80%'
+      
 
     },
     bmMorphShape: {
