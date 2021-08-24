@@ -32,7 +32,7 @@ let styles = {
     },
 
     bmMenu: {
-      background: 'rgba(0, 0, 0, 1)',
+      background: 'rgba(0, 0, 0, 0.04)',
       padding: '3.5em 1.5em 0',
       fontSize: '1.7em',
       height: '100%'

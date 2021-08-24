@@ -1,35 +1,40 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 import './Burger.css';
 import BurgerConfig from './BurgerConfig';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+
+
+
+
 
 function Burger() {
+const [toggle, setToggle] = useState(false);
 
-// const [isOpen, setIsOpen] = useState(false);
-// const toggle = () => setIsOpen(!isOpen);
-// const hide = () => setIsOpen(false);
-// const show = () => setIsOpen(true);
-  
-const showSettings = (e) => {
-e.preventDefault();
-}   
-
-// const HandleChange = (e) => {
-//     setBurger(e.target.value);
-//     // console.log(calories);
-//   };
+// const showSettings = (e) => {
+// e.preventDefault();
+// }   
 
     return (
-        <div>
-    <Menu right width="220px" styles={ BurgerConfig }>
+        <nav>
+            
+        <div className="burger" onClick={() => setToggle(!toggle)}>
+        {(toggle && <FontAwesomeIcon icon={faTimes} />) || (
+          <FontAwesomeIcon icon={faBars} />
+        )}
+         </div>
+          <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
         <Link to="/" className="menu-item">Home</Link>
         <Link to="/about" className="menu-item">About</Link>
         <Link to="/projects" className="menu-item">Projects</Link>
         <Link to="/contact" className="menu-item">Contact</Link>
-        <Link onClick={showSettings} className="menu-item--small"></Link>
-    </Menu>
-        </div>
+        
+          </div>
+          
+        </nav>
     )
 }
 
