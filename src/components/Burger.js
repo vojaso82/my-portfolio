@@ -4,9 +4,6 @@ import { slide as Menu } from 'react-burger-menu';
 import './Burger.css';
 import BurgerConfig from './BurgerConfig';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
-
 
 
 
@@ -21,12 +18,13 @@ const [toggle, setToggle] = useState(false);
         <nav>
             
             <div id="menuToggle" onClick={() => setToggle(!toggle)}>
-              <input type="checkbox" />
+              <input type="checkbox"/>
                <span id="span1"></span>
                <span id="span2"></span>
-              <span id="span3"></span>
+               <span id="span3"></span>
              </div>
-          <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
+            
+        <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
         <Link to="/" className="menu-item">Home</Link>
         <Link to="/about" className="menu-item">About</Link>
         <Link to="/projects" className="menu-item">Projects</Link>
