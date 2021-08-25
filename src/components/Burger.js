@@ -9,8 +9,6 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 
 
-
-
 function Burger() {
 const [toggle, setToggle] = useState(false);
 

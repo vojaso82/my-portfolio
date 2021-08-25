@@ -5,7 +5,7 @@
   background-color: rgba(75, 70, 70, 0.001);
   position: fixed;
   width: 150px;
-  height: 130px;
+  height: 140px;
   color: white;
   align-self: flex-end;
   padding: 0;
@@ -29,7 +29,14 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  position: sticky;
+  /* top: 0; */
   height: 150px;
   width: 100vw;
+  z-index: 1;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
 }
