@@ -9,6 +9,7 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 
 
+
 function Burger() {
 const [toggle, setToggle] = useState(false);
 
@@ -19,11 +20,12 @@ const [toggle, setToggle] = useState(false);
     return (
         <nav>
             
-        <div className="burger" onClick={() => setToggle(!toggle)}>
-        {(toggle && <FontAwesomeIcon icon={faTimes} />) || (
-          <FontAwesomeIcon icon={faBars} />
-        )}
-         </div>
+            <div id="menuToggle" onClick={() => setToggle(!toggle)}>
+              <input type="checkbox" />
+               <span id="span1"></span>
+               <span id="span2"></span>
+              <span id="span3"></span>
+             </div>
           <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
         <Link to="/" className="menu-item">Home</Link>
         <Link to="/about" className="menu-item">About</Link>
