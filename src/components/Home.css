@@ -1,18 +1,38 @@
-.text_div {
-  /* position: absolute; */
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: 10px;
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 30px;
+  color: aliceblue;
+  /* background-color: teal; */
+  position: absolute;
+  /* transform: translate(-80%, -35%); */
+  align-self: center;
+  top: 40%;
+  left: 5%;
+  height: 35vh;
+  margin-right: 2%;
 }
 
-.center_all {
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
+.home {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5%;
+  position: relative;
   color: white;
+  width: 100%;
+}
+
+.buttons {
+  /* background-color: tomato; */
+  height: 20%;
+}
+
+.home h1,
+.home h2,
+.home p {
+  padding: 10px;
+  margin: 0;
 }

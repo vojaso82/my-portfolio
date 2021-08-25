@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(75, 70, 70, 0.001);
+  background-color: rgba(189, 69, 69, 0.001);
   position: fixed;
   color: white;
   align-self: flex-end;
@@ -12,17 +12,17 @@
 }
 
 .burger-links {
+  background-color: thistle;
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 550px;
+  height: 400px;
   top: 130px;
   width: 115px;
   z-index: 1;
   margin-right: 5px;
-  transition: all 2.3s ease-in-out;
 }
 
 nav {
@@ -62,7 +62,7 @@ nav {
 }
 
 #menuToggle:hover {
-  background-color: rgba#0b0d18;
+  background-color: rgba#3d4364;
   transition: all 1.3s ease-in-out;
 }
 

@@ -5,13 +5,18 @@ import { HashLink } from 'react-router-hash-link';
 
 function Home() {
     return (
-        <div className="text_div center_all">
-            <div className="center_all">
+      <div className="main-div">
+        <div className="home">
             <h1 className="my-name">Vojislav Zaja</h1>
-            <h2 className="job-title">Web Developer</h2>
+            <h2 className="job-title">Front End Web Developer</h2>
             <p className="description">Hi. I produce elegant, performant, and accessible digital experiences</p>
-            </div>
         </div>
+        <div className="buttons">
+                <button> My work </button>
+                <button> About me </button>
+
+        </div>
+      </div>  
     )
 }
 
