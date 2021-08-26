@@ -12,22 +12,19 @@ import { IoMdMailUnread } from 'react-icons/io';
 function Burger() {
 const [toggle, setToggle] = useState(false);
 
-// const showSettings = (e) => {
-// e.preventDefault();
-// }   
 
     return (
         <nav>       
           <div id="menuToggle" toggle={toggle} onClick={() => setToggle(!toggle)}>
                <input type="checkbox"/>
-               <span id="span1"></span>
-               <span id="span2"></span>
-               <span id="span3"></span>
+               <span id={toggle === false ? "span1" : "spanx1"}></span>
+               <span id={toggle === false ? "span2" : "spanx2"}></span>
+               <span id={toggle === false ? "span3" : "spanx3"}></span>
           </div>
             
         <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
-        <Link onClick={() => setToggle(setToggle)} to="/" className="menu-item"><span>Home</span><FaHome/> </Link>
-        <Link onClick={() => setToggle(false)} to="/about" className="menu-item"><span>About</span><RiContactsFill/></Link>
+        <Link onClick={() => setToggle(false)} to="/" className="menu-item"><span>Home</span><FaHome/> </Link>
+        <Link onClick={() => setToggle(false) } to="/about" className="menu-item"><span>About</span><RiContactsFill/></Link>
         <Link onClick={() => setToggle(false)} to="/projects" className="menu-item"><span>Projects</span><BsFillBriefcaseFill/></Link>
         <Link onClick={() => setToggle(false)} to="/contact" className="menu-item"><span>Contact</span><IoMdMailUnread/></Link>
         
