@@ -3,10 +3,10 @@ import React from 'react';
 const ParticlesConfig = {
   "particles": {
     "number": {
-      "value": 62,
+      "value": 90,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 400
       }
     },
     "color": {
@@ -21,29 +21,25 @@ const ParticlesConfig = {
       "polygon": {
         "nb_sides": 5
       },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
+    
     },
     "opacity": {
       "value": 0.8286181017543023,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 1.5,
+        "speed": 5.5,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 1,
+      "value": 2,
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 1,
-        "size_min": 1.2,
+        "speed": 2,
+        "size_min": 1.5,
         "sync": true
       }
     },
