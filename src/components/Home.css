@@ -25,10 +25,39 @@
   width: 100%;
 }
 
-.buttons {
-  /* background-color: tomato; */
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
   height: 20%;
+  max-width: 50%;
 }
+
+.buttons-div a {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+  width: 130px;
+  height: 60px;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.buttons-div a:hover {
+  box-shadow: 0 0 40px 40px rgba(255, 255, 255, 0.9) inset;
+  transition: all 0.3s ease-in-out;
+  color: rgb(22, 19, 63);
+}
+
+/* .button2 {
+  margin-left: 250%;
+} */
 
 .home h1,
 .home h2,

@@ -8,6 +8,7 @@
   align-self: flex-end;
   padding: 0;
   margin: 0;
+  position: absolute;
   z-index: 1;
 }
 
@@ -17,39 +18,44 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 400px;
-  top: 130px;
-  width: 115px;
+  height: 300px;
+  top: 106px;
+  margin-right: 10px;
+  width: 102px;
   z-index: 1;
   font-size: 30px;
-  background-color: burlywood;
+  /* background-color: brown; */
 }
-
-.burger-links span {
-  display: none;
-}
-
-.burger-links a:hover {
-  background-color: rgba#37439b;
-}
-
-/* .burger-links a p:hover ~ .burger-links a span {
-  color: sandybrown;
-} */
 
 nav {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  /* position: absolute; */
   height: 150px;
   width: 160px;
-  z-index: 1;
 }
 
 .menu-item {
   font-weight: bolder;
   text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+  /* TEST */
+  /* TEST */
+}
+
+.menu-item:hover {
+  color: rgb(173, 170, 206);
+}
+
+.burger-links span {
+  display: none;
   color: white;
+}
+
+.menu-item:hover ~ .burger-links span {
+  color: rgb(255, 255, 255);
+  display: flex;
 }
 
 #menuToggle {
@@ -61,23 +67,23 @@ nav {
   padding-right: 15px;
   padding-left: 7px;
   width: 50%;
-  height: 50%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: chocolate;
+  /* TEST */
+  /* TEST */
 }
 
 #menuToggle:hover {
-  background-color: rgba#3d4364;
-  transition: all 1.3s ease-in-out;
+  background-color: rgba#87ad98;
 }
 
 #menuToggle input {
   display: flex;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   position: absolute;
   cursor: pointer;
   opacity: 0; /* hide input */
@@ -99,7 +105,7 @@ nav {
 
 #spanx1 {
   background-color: #36497a;
-  transform: rotate(45deg) translate(8px);
+  transform: rotate(45deg) translate(9px);
 }
 #spanx2 {
   background-color: #36497a;

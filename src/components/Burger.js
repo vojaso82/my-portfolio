@@ -23,10 +23,23 @@ const [toggle, setToggle] = useState(false);
           </div>
             
         <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
-        <Link onClick={() => setToggle(false)} to="/" className="menu-item"><span>Home</span><FaHome/> </Link>
-        <Link onClick={() => setToggle(false) } to="/about" className="menu-item"><span>About</span><RiContactsFill/></Link>
-        <Link onClick={() => setToggle(false)} to="/projects" className="menu-item"><span>Projects</span><BsFillBriefcaseFill/></Link>
-        <Link onClick={() => setToggle(false)} to="/contact" className="menu-item"><span>Contact</span><IoMdMailUnread/></Link>
+        <div>
+        <Link onClick={() => setToggle(false)} to="/" className="menu-item"><FaHome/></Link>
+        <span>Home</span>
+        </div>
+        <div>
+        <Link onClick={() => setToggle(false) } to="/about" className="menu-item"><RiContactsFill/></Link>
+        <span>About</span>
+        </div>
+        <div>
+        <Link onClick={() => setToggle(false)} to="/projects" className="menu-item"><BsFillBriefcaseFill/></Link>
+        <span>Projects</span>
+        </div>
+        <div>
+        <Link onClick={() => setToggle(false)} to="/contact" className="menu-item"><IoMdMailUnread/></Link>
+        <span>Contact</span>
+        </div>
+
         
           </div>
           
