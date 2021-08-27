@@ -7,9 +7,9 @@
   align-items: flex-end;
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #050716;
-  background-image: url("");
+  background-image: url("../src/components/homeapple.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -17,10 +17,12 @@
 }
 
 .canvas {
-  display: contents;
-  vertical-align: bottom;
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  /* vertical-align: bottom;
   width: 100%;
-  height: 100%;
+  height: 100%; */
 }
 
 a {
