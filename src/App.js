@@ -6,8 +6,6 @@ import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 import ContactMe from './components/ContactMe';
 import ParticlesBackground from './components/ParticlesBackground';
-import { HashLink } from 'react-router-hash-link';
-import { slide as Menu } from 'react-burger-menu';
 import Burger from './components/Burger';
 
 
