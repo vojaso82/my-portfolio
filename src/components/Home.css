@@ -12,6 +12,7 @@
   margin-right: 2%;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
+  min-width: 300px;
 }
 
 .home {
@@ -30,8 +31,9 @@
   display: flex;
   justify-content: space-between;
   height: 20%;
-  max-width: 50%;
   padding-left: 10px;
+  max-width: 300px;
+  margin-right: 10px;
 }
 
 .buttons-div a {

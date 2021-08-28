@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import '../components/Home.css'
-
 import { Spring } from 'react-spring/renderprops';
+import { FaBluetooth } from 'react-icons/fa';
 
 
 function Home() {
     return (
       <Spring 
        from={{opacity:0}}
-       to={{opacity:1, marginTop:0}}>
+       to={{opacity:1}}>
         {props => ( 
         <div style={props} className="main-div">
         <div className="home">
