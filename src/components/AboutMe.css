@@ -1,48 +1,46 @@
-.main-div {
+.main-div-about-me {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  font-size: 30px;
-  color: rgb(226, 231, 236);
+  font-size: 20px;
+  color: aliceblue;
   position: absolute;
   align-self: center;
   left: 5%;
   height: 100vh;
   width: 40%;
   margin-right: 2%;
-  background-color: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
-.home {
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 5%;
-  position: relative;
-  color: rgb(255, 255, 255);
+.tools {
+  background-color: rgba(255, 255, 255, 0.2);
   width: 100%;
 }
-
-.buttons-div {
-  margin-bottom: 20%;
-  display: flex;
-  justify-content: space-between;
-  height: 20%;
-  max-width: 50%;
-  padding-left: 10px;
+.aboutme-div {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 40px;
 }
 
-.buttons-div a {
-  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+.buttons-about-div {
+  display: flex;
+  justify-content: space-between;
+  height: 8%;
+  max-width: 50%;
+  padding-left: 10px;
+  margin-left: 1%;
+  margin-bottom: 150px;
+}
+
+.buttons-about-div a {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   overflow: hidden;
-  z-index: 5;
-  transition: color 150ms ease-in-out;
+  z-index: 1;
   width: 130px;
   height: 60px;
   border: 1px solid white;
@@ -51,19 +49,8 @@
   font-size: 20px;
 }
 
-.buttons-div a:hover {
+.buttons-about-div a:hover {
   box-shadow: 0 0 40px 40px rgba(255, 255, 255, 0.9) inset;
   transition: all 0.3s ease-in-out;
   color: rgb(22, 19, 63);
-}
-
-/* .button2 {
-  margin-left: 250%;
-} */
-
-.home h1,
-.home h2,
-.home p {
-  padding: 10px;
-  margin: 0;
 }
