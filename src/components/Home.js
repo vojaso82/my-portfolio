@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import '../components/Home.css'
-import { HashLink } from 'react-router-hash-link';
+
+import { Spring } from 'react-spring/renderprops';
 
 
 function Home() {
     return (
-      <div className="main-div">
+      <Spring 
+       from={{opacity:0}}
+       to={{opacity:1, marginTop:0}}>
+        {props => ( 
+        <div style={props} className="main-div">
         <div className="home">
             <h1 className="my-name">Vojislav Zaja</h1>
             <h2 className="job-title">Front End Web Developer</h2>
@@ -17,6 +22,8 @@ function Home() {
             <Link to="/projects">Projects</Link> 
         </div>
       </div>  
+        )}
+      </Spring>
     )
 }
 

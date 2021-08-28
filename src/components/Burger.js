@@ -7,11 +7,14 @@ import { FaHome } from 'react-icons/fa';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 import { RiContactsFill } from 'react-icons/ri';
 import { IoMdMailUnread } from 'react-icons/io';
+import { Spring } from 'react-spring/renderprops';
+import { useSpring } from 'react-spring';
+
 
 
 function Burger() {
 const [toggle, setToggle] = useState(false);
-
+// const props = useSpring({ opacity: toggle ? 1 : 0 })
 
     return (
         <nav>       
@@ -21,8 +24,12 @@ const [toggle, setToggle] = useState(false);
                <span id={toggle === false ? "span2" : "spanx2"}></span>
                <span id={toggle === false ? "span3" : "spanx3"}></span>
           </div>
-            
-        <div className="burger-links" style={toggle && {display:'flex'} || {display:'none'}}>
+        <Spring 
+         from={{opacity:0, marginTop: -500}}
+         to={{opacity:1, marginTop:0}}>
+        {props=>(
+         
+        <div className="burger-links" style={toggle && {display:'flex', props} || {display:'none'}}>
         <div>
         <Link onClick={() => setToggle(false)} to="/" className="menu-item"><FaHome/></Link>
         <span>Home</span>
@@ -39,9 +46,13 @@ const [toggle, setToggle] = useState(false);
         <Link onClick={() => setToggle(false)} to="/contact" className="menu-item"><IoMdMailUnread/></Link>
         <span>Contact</span>
         </div>
-
-        
           </div>
+
+
+        )} 
+         
+        </Spring>   
+        
           
         </nav>
     )
