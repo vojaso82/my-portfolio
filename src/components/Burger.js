@@ -41,19 +41,19 @@ const burgerBackground = useSpring({
         <animated.div className="burger-links" style={downMenuAnimation}>
         <div>
         <Link onClick={() => setToggle(false)} to="/" className="menu-item"><FaHome/></Link>
-        <p className='links-name'>Home</p>
+        <p className='links-name'><Link to='/'>Home</Link></p>
         </div>
         <div>
         <Link onClick={() => setToggle(false) } to="/about" className="menu-item"><RiContactsFill/></Link>
-        <p className='links-name'>About</p>
+        <p className='links-name'><Link to='/about'>About</Link></p>
         </div>
         <div>
         <Link onClick={() => setToggle(false)} to="/projects" className="menu-item"><BsFillBriefcaseFill/></Link>
-        <p className='links-name'>Projects</p>
+        <p className='links-name'><Link to='/projects'>Projects</Link></p>
         </div>
         <div>
         <Link onClick={() => setToggle(false)} to="/contact" className="menu-item"><IoMdMailUnread/></Link>
-        <p className='links-name'>Contact</p>
+        <p className='links-name'><Link to='/contact'>Contact</Link></p>
         </div>
           </animated.div> 
         

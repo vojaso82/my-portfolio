@@ -18,13 +18,13 @@ function AboutMe() {
          <div className="aboutme-div">
             <p>I'm a Full Stack Web Developer. </p>
             <p></p>
-            <p>I enjoy spending time coding and designing Full Stack projects.</p>
-            <p>Check out my work, my skills and get in touch with me</p>
+            <p>I enjoy spending time coding and designing projects.</p>
+            <p>Check out my work, my skills and get in touch with me.</p>
            
             <div className="tools">
             <h3>Tools & Technologies</h3>
-            <p>JavaScript(ES6) | React.js | Node.js | Express.js | MongoDB</p>
-            <p>REST API | Mongoose | JSON | CSS | HTML </p>
+            <p>JavaScript (ES6)  |  React.js  |  Node.js  |  Express.js  | MongoDB</p>
+            <p>REST API  |  Mongoose  |  JSON  |  CSS  |  HTML </p>
              </div> 
             <div className="get-in-touch">
              <h3>Connect with me</h3>
