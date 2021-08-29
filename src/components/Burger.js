@@ -11,7 +11,6 @@ import { Spring } from 'react-spring/renderprops';
 import { useSpring, animated } from 'react-spring';
 
 
-
 function Burger() {
 const [toggle, setToggle] = useState(false);
 // const [downMenuVisible, setDownMenuVisible] = useState(false);
@@ -24,8 +23,6 @@ const downMenuAnimation = useSpring({
 const burgerBackground = useSpring({
   backgroundColor: toggle ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 255, 255, 0.001)',
 });
-
-
 
     return (
         <nav>       
