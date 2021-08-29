@@ -19,11 +19,11 @@
   justify-content: space-around;
   align-items: center;
   height: 300px;
-  top: 106px;
-  margin-right: 10px;
-  width: 102px;
+  top: 105px;
+  width: 112px;
   z-index: 1;
   font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 nav {
@@ -39,40 +39,33 @@ nav {
   text-decoration: none;
   color: rgb(255, 255, 255);
   margin-left: 5px;
-  /* TEST */
-  /* TEST */
 }
 
-.menu-item:hover {
-  color: rgb(173, 170, 206);
-}
-
-.burger-links span {
+.burger-links p {
   display: none;
   color: white;
+  font-size: 10px;
+}
+.burger-links a:hover {
+  color: rgb(173, 170, 206);
+  transition: all 0.5s;
 }
 
-.menu-item:hover ~ .burger-links span {
-  color: rgb(255, 255, 255);
+.burger-links a:hover ~ .links-name {
   display: flex;
+  /* transform: translateX(-100px); */
 }
 
 #menuToggle {
-  /* overflow: hidden;
-  position: absolute; */
-  margin-top: 20px;
-  margin-right: 10px;
-  padding-top: 10px;
+  /* padding-top: 10px;
   padding-right: 15px;
-  padding-left: 7px;
-  width: 50%;
-  height: 60%;
+  padding-left: 7px; */
+  width: 70%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* TEST */
-  /* TEST */
 }
 
 #menuToggle:hover {
@@ -90,7 +83,7 @@ nav {
 }
 
 #menuToggle span {
-  width: 60%;
+  width: 40%;
   height: 3px;
   margin-bottom: 10px;
   background: #7f8fa6;
@@ -104,11 +97,11 @@ nav {
 
 #spanx1 {
   background-color: #36497a;
-  transform: rotate(45deg) translate(9px);
+  transform: rotate(45deg) translateX(15px) translateY(9px);
 }
 #spanx2 {
   background-color: #36497a;
-  transform: rotate(495deg) translate(-9px);
+  transform: rotate(495deg) translateX(1px) translateY(-4px);
 }
 #spanx3 {
   background-color: #36497a;

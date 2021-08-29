@@ -21,38 +21,44 @@ const downMenuAnimation = useSpring({
   transform: toggle ? `translateX(0)` : `translateX(100%)`
 });
 
+const burgerBackground = useSpring({
+  backgroundColor: toggle ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 255, 255, 0.001)',
+});
+
+
+
     return (
         <nav>       
-          <div id="menuToggle" onClick={() => setToggle(!toggle)}>
+          <animated.div id="menuToggle" onClick={() => setToggle(!toggle)} style={burgerBackground}>
           
                <input type="checkbox"/>
                <span id={toggle === false ? "span1" : "spanx1"}></span>
                <span id={toggle === false ? "span2" : "spanx2"}></span>
                <span id={toggle === false ? "span3" : "spanx3"}></span>
-          </div>
+          </animated.div>
        
          
         <animated.div className="burger-links" style={downMenuAnimation}>
         <div>
         <Link onClick={() => setToggle(false)} to="/" className="menu-item"><FaHome/></Link>
-        <span>Home</span>
+        <p className='links-name'>Home</p>
         </div>
         <div>
         <Link onClick={() => setToggle(false) } to="/about" className="menu-item"><RiContactsFill/></Link>
-        <span>About</span>
+        <p className='links-name'>About</p>
         </div>
         <div>
         <Link onClick={() => setToggle(false)} to="/projects" className="menu-item"><BsFillBriefcaseFill/></Link>
-        <span>Projects</span>
+        <p className='links-name'>Projects</p>
         </div>
         <div>
         <Link onClick={() => setToggle(false)} to="/contact" className="menu-item"><IoMdMailUnread/></Link>
-        <span>Contact</span>
+        <p className='links-name'>Contact</p>
         </div>
           </animated.div> 
         
           
-        </nav>
+      </nav>
     )
 }
 
