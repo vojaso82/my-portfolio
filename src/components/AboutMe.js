@@ -4,6 +4,7 @@ import '../components/AboutMe.css'
 import { Spring } from 'react-spring/renderprops';
 import { useTrail, animated } from 'react-spring';
 import pdf from './VojislavZajaResume.pdf';
+import { motion } from 'framer-motion';
 
 
 function AboutMe() {
@@ -36,8 +37,25 @@ function AboutMe() {
             </div>
          </div>  
          <div className="buttons-about-div">
+             <motion.div className="button1"
+             whileHover={{
+                 scale:1.05,
+                 textShadow:"0px 0px 15px rgb(95,244,255)",
+                 boxShadow:"0px 0px 15px rgb(95,244,255)", 
+             }}
+             >
             <Link to="/projects"> Projects</Link> 
+             </motion.div>
+             <motion.div className="button2"
+              whileHover={{
+                scale:1.05,
+                textShadow:"0px 0px 15px rgb(95,244,255)",
+                boxShadow:"0px 0px 15px rgb(95,244,255)", 
+            }}
+             >
+
             <Link to="/">Home</Link> 
+             </motion.div>
         </div>
             
         </div>

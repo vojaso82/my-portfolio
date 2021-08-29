@@ -9,6 +9,7 @@ import { RiContactsFill } from 'react-icons/ri';
 import { IoMdMailUnread } from 'react-icons/io';
 import { Spring } from 'react-spring/renderprops';
 import { useSpring, animated } from 'react-spring';
+import { motion } from 'framer-motion';
 
 
 function Burger() {
