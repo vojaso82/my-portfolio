@@ -1,29 +1,14 @@
 import React, { useRef } from 'react';
+import '../components/Home.css';
+import { Link } from 'react-router-dom';
 import '../components/MyProjects.css'
 import { useChain, animated, useTransition, useSpringRef, useSpring } from 'react-spring/renderprops';
 import { Spring } from 'react-spring/renderprops';
+import { motion } from 'framer-motion';
 
 
 function MyProjects() {
-// Build a spring and catch its ref
-const springRef = useSpringRef()
-const spring = useSpring({
-    from: { opacity: 0.5 },
-    to: { opacity:1},
-    config: { tension: 250 },
-    ref: springRef
- })
-// Build a transition and catch its ref
-const transitionRef = useSpringRef()
-const transitions = useTransition({
-    from: { fontSize: '10px' },
-    to: { fontSize:'45px'},
-    ref: transitionRef
 
- })
-// First run the spring, when it concludes run the transition
-useChain([springRef, transitionRef])
-// Use the animated props like always
 
 
     return (
@@ -32,25 +17,46 @@ useChain([springRef, transitionRef])
         to={{opacity:1,marginLeft:0}}
         >
         {props => (
-        <animated.div  style={props, spring} className="projects-main-div">
+        <animated.div  style={props} className="projects-main-div">
+        <div className="projects-div">
+           <a className="a-links" href="https://natureall.netlify.app/" target="_blank"></a>
 
-           <a href="https://natureall.netlify.app/" target="_blank"></a>
+           <a className="a-links" href="https://nutriyoga.netlify.app/" target="_blank"></a>
 
-           <a href="https://nutriyoga.netlify.app/" target="_blank"></a>
+           <a className="a-links" href="https://week-4-game-project.github.io/2d-tower-defense/" target="_blank"></a>
 
-           <a href="https://week-4-game-project.github.io/2d-tower-defense/" target="_blank"></a>
+           <a className="a-links" href="https://ux-portfolio-project.github.io/ux-project/index.html" target="_blank"></a>
 
-           <a href="https://ux-portfolio-project.github.io/ux-project/index.html" target="_blank"></a>
+           <a className="a-links" href="https://www.ars.rs/" target="_blank"></a>
 
-           <a href="https://www.ars.rs/" target="_blank"></a>
+           <a className="a-links" href="http://www.kita-wolkenland.ch/" target="_blank"></a>
 
-           <a href="http://www.kita-wolkenland.ch/" target="_blank"></a>
+           <a className="a-links" href="https://www.orthodoxchurch.ch/sr" target="_blank"></a>
 
-           <a href="https://www.orthodoxchurch.ch/sr" target="_blank"></a>
-
-           <a href="https://www.jurpm.ch/en/" target="_blank"></a>
-
+           <a className="a-links" href="https://www.jurpm.ch/en/" target="_blank"></a>
+        </div>
+        <div className="buttons-div-projects">
+          <motion.div className='motion-button1-projects'
+          whileHover={{
+            scale:1.05,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 15px rgb(95,244,255)", 
+        }}
+          >
+            <Link to="/">Home</Link> 
+          </motion.div>
+          <motion.div className='motion-button2-projects'
+          whileHover={{
+            scale:1.05,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 15px rgb(95,244,255)",
+        }}
+          >
+            <Link to="/contact">Contact</Link> 
+          </motion.div>
+        </div> 
         </animated.div>
+
         )}
         </Spring>
     )
