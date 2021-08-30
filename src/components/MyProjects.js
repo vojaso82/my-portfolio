@@ -9,8 +9,6 @@ import { motion } from 'framer-motion';
 
 function MyProjects() {
 
-
-
     return (
         <Spring
         from={{opacity:0, marginLeft:-500}}
@@ -19,28 +17,78 @@ function MyProjects() {
         {props => (
         <animated.div  style={props} className="projects-main-div">
         <div className="projects-div">
-           <a className="a-links" href="https://natureall.netlify.app/" target="_blank"></a>
+          <motion.a
+          whileHover={{
+            scale:1,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 10px rgb(255,255,255)", 
+            }}
+          className="a-links" href="https://natureall.netlify.app/" target="_blank">
+          </motion.a>
 
-           <a className="a-links" href="https://nutriyoga.netlify.app/" target="_blank"></a>
-
-           <a className="a-links" href="https://week-4-game-project.github.io/2d-tower-defense/" target="_blank"></a>
-
-           <a className="a-links" href="https://ux-portfolio-project.github.io/ux-project/index.html" target="_blank"></a>
-
-           <a className="a-links" href="https://www.ars.rs/" target="_blank"></a>
-
-           <a className="a-links" href="http://www.kita-wolkenland.ch/" target="_blank"></a>
-
-           <a className="a-links" href="https://www.orthodoxchurch.ch/sr" target="_blank"></a>
-
-           <a className="a-links" href="https://www.jurpm.ch/en/" target="_blank"></a>
+           <motion.a 
+           whileHover={{
+            scale:1,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 10px rgb(255,255,255)", 
+            }}
+           className="a-links" href="https://nutriyoga.netlify.app/" target="_blank">
+           </motion.a>
+           <motion.a 
+            whileHover={{
+              scale:1,
+              textShadow:"0px 0px 15px rgb(95,244,255)",
+              boxShadow:"0px 0px 10px rgb(255,255,255)", 
+              }}
+           className="a-links" href="https://week-4-game-project.github.io/2d-tower-defense/" target="_blank">
+           </motion.a>
+           <motion.a
+           whileHover={{
+            scale:1,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 10px rgb(255,255,255)", 
+            }}
+           className="a-links" href="https://ux-portfolio-project.github.io/ux-project/index.html" target="_blank">
+           </motion.a>
+           <motion.a
+           whileHover={{
+            scale:1,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 10px rgb(255,255,255)", 
+            }}
+           className="a-links" href="https://www.ars.rs/" target="_blank">
+           </motion.a>
+           <motion.a
+           whileHover={{
+            scale:1,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 10px rgb(255,255,255)", 
+            }}
+           className="a-links" href="http://www.kita-wolkenland.ch/" target="_blank">
+           </motion.a>
+           <motion.a
+            whileHover={{
+             scale:1,
+             textShadow:"0px 0px 15px rgb(95,244,255)",
+             boxShadow:"0px 0px 10px rgb(255,255,255)", 
+              }}
+            className="a-links" href="https://www.orthodoxchurch.ch/sr" target="_blank">
+            </motion.a>
+           <motion.a
+           whileHover={{
+            scale:1,
+            textShadow:"0px 0px 15px rgb(95,244,255)",
+            boxShadow:"0px 0px 10px rgb(255,255,255)", 
+            }}
+           className="a-links" href="https://www.jurpm.ch/en/" target="_blank">
+           </motion.a>
         </div>
         <div className="buttons-div-projects">
           <motion.div className='motion-button1-projects'
           whileHover={{
-            scale:1.05,
+            scale:1,
             textShadow:"0px 0px 15px rgb(95,244,255)",
-            boxShadow:"0px 0px 15px rgb(95,244,255)", 
+            boxShadow:"0px 0px 10px rgb(95,244,255)", 
         }}
           >
             <Link to="/">Home</Link> 

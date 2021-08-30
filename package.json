@@ -19,7 +19,7 @@
     "react-particles-js": "^3.5.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "react-spring": "^9.0.0-rc.3",
+    "react-spring": "^8.0.27",
     "tsparticles": "^1.33.3",
     "web-vitals": "^1.1.2"
   },
