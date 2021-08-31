@@ -30,7 +30,6 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  /* position: absolute; */
   height: 150px;
   width: 160px;
 }
@@ -41,6 +40,7 @@ nav {
   color: rgb(255, 255, 255);
   margin-left: 5px;
 }
+
 .burger-links div {
   display: flex;
   flex-direction: row-reverse;
@@ -49,8 +49,6 @@ nav {
   width: 250%;
   height: 80px;
   z-index: -5;
-  /* background-color: #87ad98; */
-  /* padding-top: 9px; */
 }
 
 .links-name {
@@ -66,20 +64,6 @@ nav {
   z-index: -10;
   opacity: 0;
   border-radius: 6px 0 0 6px;
-  /* margin-right: 207px; */
-  /* margin-right: 207px;
-  margin-top: 6px; */
-  /* display: none; */
-  /* opacity: 0; */
-  /* color: white;
-  font-size: 14px;
-  margin-right: 112px;
-  background-color: rgba(255, 255, 255, 0.07);
-  width: 95px;
-  height: 37px;
-  position: absolute;
-  justify-content: center;
-  align-items: center; */
 }
 
 .burger-links a:hover {
@@ -88,16 +72,12 @@ nav {
 }
 
 .burger-links div:hover > .links-name {
-  /* display: flex; */
   opacity: 1;
   transform: translateX(-110%);
   transition: all 0.3s ease-in;
 }
 
 #menuToggle {
-  /* padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 7px; */
   width: 70%;
   height: 70%;
   display: flex;
@@ -147,32 +127,29 @@ nav {
   opacity: 0;
 }
 
-/* #span1 {
-  transform-origin: 8px -2px;
+@media (max-width: 600px) {
+  .burger-links div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: -100%;
+    height: 80px;
+    z-index: -5;
+  }
+  .links-name {
+    display: none;
+  }
 }
 
-#span3 {
-  transform-origin: bottom right;
+@media (max-width: 500px) {
+  .burger-links div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    z-index: -5;
+  }
 }
-
-#menuToggle input:checked ~ #span1 {
-  background-color: #36497a;
-  transform: rotate(45deg) translate(8px);
-}
-#menuToggle input:checked ~ #span2 {
-  background-color: #36497a;
-  transform: rotate(495deg) translate(4px);
-}
-#menuToggle input:checked ~ #span3 {
-  background-color: #36497a;
-  transform: rotate(45deg);
-  opacity: 0;
-} */
-
-/* #span1 {
-  transform-origin: 8px -2px;
-}
-
-#span3 {
-  transform-origin: bottom left;
-} */
