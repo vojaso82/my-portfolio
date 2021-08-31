@@ -34,10 +34,9 @@
 }
 
 .projects-div .a-links {
-  background-color: rgb(125, 141, 136);
   display: flex;
   width: 25%;
-  height: 20%;
+  height: 25%;
   margin: 20px;
   border-radius: 5px;
   padding: 0px;
@@ -98,4 +97,31 @@
 .motion-button2-projects {
   height: 60px;
   border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .projects-div .a-links {
+    display: flex;
+    width: 40%;
+    height: 20%;
+    margin: 20px;
+    border-radius: 5px;
+    /* padding: 0px; */
+    /* min-width: 200px; */
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-div .a-links {
+    display: flex;
+    width: 50%;
+    height: 15%;
+    margin: 20px;
+    border-radius: 5px;
+    /* padding: 0px; */
+    /* min-width: 200px; */
+  }
+  .buttons-div-projects a {
+    display: none;
+  }
 }

@@ -32,7 +32,7 @@ function AboutMe() {
              <div className="links">
              <a href="https://www.linkedin.com/in/vojislav-zaja/" target="_blank">LinkedIn</a>
              <a href="https://github.com/vojaso82" target="_blank"> GitHub</a> 
-             <a href={pdf}>Resume</a> 
+             <a href={pdf} target="_blank">Resume</a> 
              </div>
             </div>
          </div>  
