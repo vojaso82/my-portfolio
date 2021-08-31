@@ -6,7 +6,6 @@ import { useChain, animated, useTransition, useSpringRef, useSpring } from 'reac
 import { Spring } from 'react-spring/renderprops';
 import { motion } from 'framer-motion';
 
-
 function MyProjects() {
 
     return (
@@ -19,74 +18,81 @@ function MyProjects() {
         <div className="projects-div">
           <motion.a
           whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
           className="a-links" href="https://natureall.netlify.app/" target="_blank">
+         <img src="./NatureAll.png"/>
           </motion.a>
-
            <motion.a 
            whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
            className="a-links" href="https://nutriyoga.netlify.app/" target="_blank">
+          <img src="./NutriYoga.png"/>
            </motion.a>
            <motion.a 
             whileHover={{
-              scale:1,
+              scale:1.02,
               textShadow:"0px 0px 15px rgb(95,244,255)",
               boxShadow:"0px 0px 10px rgb(255,255,255)", 
               }}
            className="a-links" href="https://week-4-game-project.github.io/2d-tower-defense/" target="_blank">
+            <img src="./Grandmas.png"/>
            </motion.a>
            <motion.a
            whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
            className="a-links" href="https://ux-portfolio-project.github.io/ux-project/index.html" target="_blank">
+             <img src="./Reggie.png"/>
            </motion.a>
            <motion.a
            whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
            className="a-links" href="https://www.ars.rs/" target="_blank">
+             <img src="./Ars.png"/>
            </motion.a>
            <motion.a
            whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
            className="a-links" href="http://www.kita-wolkenland.ch/" target="_blank">
+            <img src="./Kita.png"/>
            </motion.a>
            <motion.a
             whileHover={{
-             scale:1,
+             scale:1.02,
              textShadow:"0px 0px 15px rgb(95,244,255)",
              boxShadow:"0px 0px 10px rgb(255,255,255)", 
               }}
             className="a-links" href="https://www.orthodoxchurch.ch/sr" target="_blank">
+            <img src="./Church.png"/>
             </motion.a>
            <motion.a
            whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
            className="a-links" href="https://www.jurpm.ch/en/" target="_blank">
+             <img src="./Gianni.png"/>
            </motion.a>
         </div>
         <div className="buttons-div-projects">
           <motion.div className='motion-button1-projects'
           whileHover={{
-            scale:1,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(95,244,255)", 
         }}
@@ -95,7 +101,7 @@ function MyProjects() {
           </motion.div>
           <motion.div className='motion-button2-projects'
           whileHover={{
-            scale:1.05,
+            scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 15px rgb(95,244,255)",
         }}

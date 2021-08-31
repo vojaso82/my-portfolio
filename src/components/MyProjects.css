@@ -40,9 +40,21 @@
   height: 20%;
   margin: 20px;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0px;
+  min-width: 200px;
 }
 
+.projects-div img {
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+}
+/* #div-yoga {
+  background-image: url("./NutriYoga.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 .buttons-div-projects {
   /* display: flex;
   justify-content: space-between;
