@@ -8,18 +8,18 @@ import { motion } from 'framer-motion';
 
 function Home() {
     return (
-      <Spring 
+    <Spring 
        from={{opacity:0,marginLeft: -500}}
        to={{opacity:1,marginLeft: 0}}>
         {props => ( 
-        <div style={props} className="main-div">
-        <div className="home">
+      <div style={props} className="main-div">
+      <div className="home">
             <h1 className="my-name">Vojislav Zaja</h1>
             <h2 className="job-title">Web Developer</h2>
             <p className="description">I define and design customer experiences in the digital channel</p>
-        </div>
-        <div className="buttons-div">
-          <motion.div className='motion-button1'
+      </div>
+      <div className="buttons-div">
+      <motion.div className='motion-button1'
           whileHover={{
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
@@ -27,8 +27,8 @@ function Home() {
         }}
           >
             <Link to="/about">About</Link> 
-          </motion.div>
-          <motion.div className='motion-button2'
+      </motion.div>
+      <motion.div className='motion-button2'
           whileHover={{
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
@@ -36,11 +36,11 @@ function Home() {
         }}
           >
             <Link to="/projects">Projects</Link> 
-          </motion.div>
-        </div>
+      </motion.div>
+      </div>
       </div>  
         )}
-      </Spring>
+    </Spring>
     )
 }
 
