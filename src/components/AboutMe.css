@@ -14,6 +14,9 @@
   background-color: rgba(255, 255, 255, 0.05);
   min-width: 350px;
 }
+.aboutme-div p {
+  margin-left: 8px;
+}
 
 .tools {
   border-radius: 5px;
@@ -27,9 +30,15 @@
 }
 
 .tools p {
+  margin-left: 5px;
   font-weight: bold;
   color: rgb(95, 244, 255);
 }
+
+.tools h3 {
+  margin-left: 5px;
+}
+
 .aboutme-div {
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -49,6 +58,7 @@
 }
 .get-in-touch h3 {
   margin-top: -45px;
+  margin-left: 5px;
 }
 
 .links {
@@ -62,6 +72,7 @@
 
 .links a {
   color: rgb(95, 244, 255);
+  margin-left: 5px;
 }
 
 .links a:hover {

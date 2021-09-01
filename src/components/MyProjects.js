@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../components/Home.css';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import '../components/MyProjects.css'
 import { useChain, animated, useTransition, useSpringRef, useSpring } from 'react-spring/renderprops';
 import { Spring } from 'react-spring/renderprops';
@@ -16,18 +16,21 @@ function MyProjects() {
         {props => (
         <animated.div  style={props} className="projects-main-div">
         <div className="projects-div">
-          <motion.a
+          <motion.a 
           whileHover={{
-            scale:1.02,
+            transition: { duration: 0.5 },
+            scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
           className="a-links" href="https://natureall.netlify.app/" target="_blank">
+          
          <img src="./NatureAll.png"/>
           </motion.a>
            <motion.a 
            whileHover={{
-            scale:1.02,
+            transition: { duration: 0.5 },
+            scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
@@ -36,7 +39,8 @@ function MyProjects() {
            </motion.a>
            <motion.a 
             whileHover={{
-              scale:1.02,
+              transition: { duration: 0.5 },
+              scale:1.05,
               textShadow:"0px 0px 15px rgb(95,244,255)",
               boxShadow:"0px 0px 10px rgb(255,255,255)", 
               }}
@@ -45,7 +49,8 @@ function MyProjects() {
            </motion.a>
            <motion.a
            whileHover={{
-            scale:1.02,
+            transition: { duration: 0.5 },
+            scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
@@ -54,7 +59,8 @@ function MyProjects() {
            </motion.a>
            <motion.a
            whileHover={{
-            scale:1.02,
+            transition: { duration: 0.5 },
+            scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
@@ -63,7 +69,8 @@ function MyProjects() {
            </motion.a>
            <motion.a
            whileHover={{
-            scale:1.02,
+            transition: { duration: 0.5 },
+            scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
@@ -72,7 +79,8 @@ function MyProjects() {
            </motion.a>
            <motion.a
             whileHover={{
-             scale:1.02,
+              transition: { duration: 0.5 },
+             scale:1.05,
              textShadow:"0px 0px 15px rgb(95,244,255)",
              boxShadow:"0px 0px 10px rgb(255,255,255)", 
               }}
@@ -81,7 +89,8 @@ function MyProjects() {
             </motion.a>
            <motion.a
            whileHover={{
-            scale:1.02,
+            transition: { duration: 0.5 },
+            scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
@@ -92,6 +101,7 @@ function MyProjects() {
         <div className="buttons-div-projects">
           <motion.div className='motion-button1-projects'
           whileHover={{
+            transition: { duration: 0.5 },
             scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(95,244,255)", 
@@ -101,6 +111,7 @@ function MyProjects() {
           </motion.div>
           <motion.div className='motion-button2-projects'
           whileHover={{
+            transition: { duration: 0.5 },
             scale:1.02,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 15px rgb(95,244,255)",
