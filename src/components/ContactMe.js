@@ -20,7 +20,7 @@ function ContactMe() {
             <input type="text" name="email" placeholder="You email"/>
             <input type="text" name="phone" placeholder="You phone number"/>
             <textarea type="text" name="message" placeholder="You message"/>
-            <button>Submit</button>
+            <button>Submit message</button>
             </div>
         </animated.div>
         )}
