@@ -3,7 +3,7 @@ import React from 'react';
 const ParticlesConfig = {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 40,
       "density": {
         "enable": true,
         "value_area": 400
@@ -16,7 +16,7 @@ const ParticlesConfig = {
       "type": "circle",
       "stroke": {
         "width": 5,
-        "color": "#bc4444"
+        "color": "#6b5aa2"
       },
       "polygon": {
         "nb_sides": 5
@@ -27,10 +27,10 @@ const ParticlesConfig = {
       "value": 0.8286181017543023,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 5.5,
+        "enable": true,
+        "speed": 0.5,
         "opacity_min": 0.002,
-        "sync": false
+        "sync": true
       }
     },
     "size": {
@@ -45,7 +45,7 @@ const ParticlesConfig = {
     },
     "line_linked": {
       "enable": true,
-      "distance": 5,
+      "distance": 45,
       "color": "#5d61a7",
       "opacity": 0.9075341114451881,
       "width": 0.7891600969088592
