@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import '../components/Home.css'
 import { Spring } from 'react-spring/renderprops';
-import { FaBluetooth } from 'react-icons/fa';
+// import { FaBluetooth } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 
@@ -14,7 +14,7 @@ function Home() {
         {props => ( 
       <div style={props} className="main-div">
       <div className="home">
-            <h1 className="my-name">Vojislav Zaja</h1>
+          <h1 className="my-name">Vojislav Zaja</h1>
             <h2 className="job-title">Web Developer</h2>
             <p className="description">I define and design customer experiences in the digital channel</p>
       </div>
@@ -25,7 +25,7 @@ function Home() {
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 15px rgb(95,244,255)", 
         }}
-          >
+          > 
             <Link to="/about">About</Link> 
       </motion.div>
       <motion.div className='motion-button2'

@@ -8,40 +8,54 @@ import emailjs from 'emailjs-com';
 
 function ContactMe() {
  const[message, setMessage] = useState();
- const[name, setName] = useState();
- const[email, setEmail] = useState();
- const[phone, setPhone] = useState();
- const[text, setText] = useState();
+ const[name, setName] = useState('');
+ const[email, setEmail] = useState('');
+ const[phone, setPhone] = useState('');
+ const[text, setText] = useState('');
 
 
 const handleChange = (e) => {
 if(e.target.name === "name"){
     setName(e.target.value)
-}else if(e.target.name === "email"){
+}
+if(e.target.name === "email"){
     setEmail(e.target.value)
-}else if(e.target.name === "phone"){
+}
+if(e.target.name === "phone"){
     setPhone(e.target.value)
-}else if(e.target.name === "message"){
+}
+if(e.target.name === "message"){
     setText(e.target.value)
 }
-}
+// e.target.name = e.target.value
 
+}
 
 function sendEmail(e) {
 e.preventDefault();
-if(name && email && phone && text){
-
+    
+if(name.length > 0 && email.length > 0 && phone.length > 0 && text.length > 0){
+    console.log(name.length,email,phone,text)
 emailjs.sendForm('service_ji46uhq', 'template_chppd3c', e.target, 'user_ZyOxWspwe6RKIA4Y8K4xg')
+
 .then((result) => {
 console.log(result.text);
 result.text === "OK" ? setMessage("Message sent") : setMessage("Please try again")
+e.target.reset();
+setName('')
+setEmail('')
+setPhone('')
+setText('')
+
 }, (error) => {
 console.log(error.text);
 });
-}else setMessage('You have to fill all fields')
-
-
+}else{
+    setMessage('Please fill out all fields')
+    return
+} 
 e.target.reset();
+
 }
     
     return (
@@ -56,10 +70,10 @@ e.target.reset();
         </div>
         <form onSubmit={sendEmail} className="inputs-div">
             
-            <input onChange={(e)=>handleChange(e)} type="text" name="name" placeholder="You name"/>
-            <input onChange={(e)=>handleChange(e)} type="text" name="email" placeholder="You email"/>
-            <input onChange={(e)=>handleChange(e)} type="text" name="phone" placeholder="You phone number"/>
-            <textarea onChange={(e)=>handleChange(e)} type="text" name="message" placeholder="You message"/>
+            <input onChange={(e)=>handleChange(e)} type="text" name="name" placeholder="Your name"/>
+            <input onChange={(e)=>handleChange(e)} type="text" name="email" placeholder="Your email"/>
+            <input onChange={(e)=>handleChange(e)} type="text" name="phone" placeholder="Your phone number"/>
+            <textarea onChange={(e)=>handleChange(e)} type="text" name="message" placeholder="Your message"/>
             <p>{message}</p>
             <motion.div className='submit-button'
           whileHover={{
