@@ -18,7 +18,8 @@ function MyProjects() {
         <div className="projects-div">
           <motion.a 
           whileHover={{
-            transition: { duration: 0.5 },
+            backgroundColor: 'red',
+            transition: { duration: 0.3 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -29,7 +30,7 @@ function MyProjects() {
           </motion.a>
            <motion.a 
            whileHover={{
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -39,7 +40,7 @@ function MyProjects() {
            </motion.a>
            <motion.a 
             whileHover={{
-              transition: { duration: 0.5 },
+              transition: { duration: 0.3 },
               scale:1.05,
               textShadow:"0px 0px 15px rgb(95,244,255)",
               boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -49,7 +50,7 @@ function MyProjects() {
            </motion.a>
            <motion.a
            whileHover={{
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -59,7 +60,7 @@ function MyProjects() {
            </motion.a>
            <motion.a
            whileHover={{
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -69,7 +70,7 @@ function MyProjects() {
            </motion.a>
            <motion.a
            whileHover={{
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -79,7 +80,7 @@ function MyProjects() {
            </motion.a>
            <motion.a
             whileHover={{
-              transition: { duration: 0.5 },
+              transition: { duration: 0.3 },
              scale:1.05,
              textShadow:"0px 0px 15px rgb(95,244,255)",
              boxShadow:"0px 0px 10px rgb(255,255,255)", 
@@ -89,7 +90,7 @@ function MyProjects() {
             </motion.a>
            <motion.a
            whileHover={{
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 

@@ -20,17 +20,20 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left:10px;
   margin-bottom: 5%;
   position: relative;
   color: rgb(255, 255, 255);
-  width: 100%;
+  width: 95%;
+  
 }
 
 .buttons-div {
-  margin-bottom: 20%;
+  margin-left:10px;
+  margin-bottom: 30%;
   display: flex;
   justify-content: space-between;
-  height: 20%;
+  height: 8%;
   padding-left: 10px;
   max-width: 300px;
   margin-right: 10px;
