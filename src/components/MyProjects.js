@@ -18,15 +18,15 @@ function MyProjects() {
         <div className="projects-div">
           <motion.a 
           whileHover={{
-            backgroundColor: 'red',
             transition: { duration: 0.4 },
             scale:1.05,
             textShadow:"0px 0px 15px rgb(95,244,255)",
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
-          className="a-links" href="https://natureall.netlify.app/" target="_blank">
-          
-         <img src="./NatureAll.png"/>
+            
+          className="a-links" href="https://natureall.netlify.app/" target="_blank"> 
+          {/* <p>NATURE ALL PROJECT JAVA SCRIPT AND REACT</p> */}
+         <img src="./NatureAll.png" placeholder="NatureAll"/>
           </motion.a>
            <motion.a 
            whileHover={{

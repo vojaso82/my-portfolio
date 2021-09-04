@@ -40,18 +40,46 @@
   transition: all 1s ease-in-out;
 } */
 
+/* .a-links{
+  background-image:url('/src/Images/NatureAll.png');
+  background-size:cover;
+}
+.a-links p{
+  display:none;
+}
+
+.a-links:hover > p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-links:hover{
+  scale:1.05;
+  transition:all .5s ease-in-out;
+  background: none;
+  background-color: burlywood;
+  position:relative;
+  z-index:5;
+} */
+
+
+
 .projects-div img {
   width: 100%;
   margin: 0;
   border-radius: 5px;
-  position:relative;
-  z-index: 1;
+  background-color: rgb(66, 54, 170);
 }
 
 /* .projects-div img:hover{
-  background:none;
-}
-.project-div:hover{
+  
+  scale:1.02;
+  transition:all 0.2s ease-in-out;
+  background-color: bisque;
+} */
+
+/* .project-div:hover{
   background-color: aquamarine;
   scale:1.05;
   transition:all ease-in-out 0.5s;
