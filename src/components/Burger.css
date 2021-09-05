@@ -188,15 +188,29 @@ nav {
   }
   #spanx1 {
     background-color: #36497a;
-    transform: rotate(45deg) translateX(15px) translateY(9px);
+    transform: rotate(45deg) translateX(8px) translateY(6px);
   }
   #spanx2 {
     background-color: #36497a;
-    transform: rotate(495deg) translateX(1px) translateY(-5px);
+    transform: rotate(495deg) translateX(1px) translateY(-2px);
   }
   #spanx3 {
     background-color: #36497a;
     transform: rotate(45deg);
     opacity: 0;
   }
+
+  #menuToggle span {
+    width: 50%;
+    height: 2px;
+    margin-bottom: 5px;
+    background: #7f8fa6;
+    border-radius: 6px;
+    -webkit-transition: all 0.5s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+    -moz-transition: all 0.5s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+    -ms-transition: all 0.5s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+    -o-transition: all 0.5s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+    transition: all 0.5s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  }
+  
 }
