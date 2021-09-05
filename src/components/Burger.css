@@ -153,3 +153,50 @@ nav {
     z-index: -5;
   }
 }
+
+@media (max-width: 440px) {
+  .burger-links div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80px;
+    z-index: -5;
+  }
+  .burger-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    top: 60px;
+    width: 48px;
+    z-index: 1;
+    font-size: 25px;
+    background-color: rgba(241, 221, 221, 0.05);
+    border-radius: 0 0px 0 6px;
+  }
+  #menuToggle {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #spanx1 {
+    background-color: #36497a;
+    transform: rotate(45deg) translateX(15px) translateY(9px);
+  }
+  #spanx2 {
+    background-color: #36497a;
+    transform: rotate(495deg) translateX(1px) translateY(-5px);
+  }
+  #spanx3 {
+    background-color: #36497a;
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+}
