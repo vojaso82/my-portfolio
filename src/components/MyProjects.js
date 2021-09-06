@@ -17,6 +17,7 @@ function MyProjects() {
         <animated.div  style={props} className="projects-main-div">
         <div className="projects-div">
           <motion.a 
+          
           whileHover={{
             transition: { duration: 0.4 },
             scale:1.05,
@@ -24,8 +25,9 @@ function MyProjects() {
             boxShadow:"0px 0px 10px rgb(255,255,255)", 
             }}
             
-          className="a-links" href="https://natureall.netlify.app/" target="_blank"> 
+          className="a-links" href="https://natureall.netlify.app/" target="_blank">      
           {/* <p>NATURE ALL PROJECT JAVA SCRIPT AND REACT</p> */}
+          
          <img src="./NatureAll.png" placeholder="NatureAll"/>
           </motion.a>
            <motion.a 
