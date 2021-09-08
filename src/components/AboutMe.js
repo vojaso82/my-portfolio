@@ -17,7 +17,9 @@ function AboutMe() {
         {props => (
         <div style={props} className ="main-div-about-me">
          <div className="aboutme-div">
-            <p>I am Full Stack Web Developer. Graduated from Ironhack boot camp in Miami. </p>
+            <p>I am Full Stack Web Developer.</p>
+            <p>Graduated from Ironhack boot camp in Miami in 2021.</p>
+            <p> Previously I worked as a Front End Web Developer Intern back in 2015. </p>
             <p></p>
             <p>I enjoy spending time coding and designing projects.</p>
             <p>Check out my work, my skills and get in touch with me.</p>
