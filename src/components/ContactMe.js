@@ -13,7 +13,6 @@ function ContactMe() {
  const[phone, setPhone] = useState('');
  const[text, setText] = useState('');
 
-
 const handleChange = (e) => {
 if(e.target.name === "name"){
     setName(e.target.value)
@@ -28,7 +27,6 @@ if(e.target.name === "message"){
     setText(e.target.value)
 }
 // e.target.name = e.target.value
-
 }
 
 function sendEmail(e) {
