@@ -35,11 +35,11 @@ function sendEmail(e) {
 e.preventDefault();
     
 if(name.length > 0 && email.length > 0 && phone.length > 0 && text.length > 0){
-    console.log(name.length,email,phone,text)
+    // console.log(name.length,email,phone,text)
 emailjs.sendForm('service_ji46uhq', 'template_chppd3c', e.target, 'user_ZyOxWspwe6RKIA4Y8K4xg')
 
 .then((result) => {
-console.log(result.text);
+// console.log(result.text);
 result.text === "OK" ? setMessage("Message sent") : setMessage("Please try again")
 e.target.reset();
 setName('')
@@ -48,7 +48,7 @@ setPhone('')
 setText('')
 
 }, (error) => {
-console.log(error.text);
+// console.log(error.text);
 });
 }else{
     setMessage('Please fill out all fields')
@@ -56,8 +56,7 @@ console.log(error.text);
 } 
 e.target.reset();
 
-}
-    
+}   
     return (
         <Spring
         from={{opacity:0, marginLeft:-500}}
