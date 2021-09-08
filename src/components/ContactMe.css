@@ -167,7 +167,7 @@ button1-projects {
   }
   .inputs-div {
     /* background-color: brown; */
-    padding: 5px 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -190,7 +190,7 @@ button1-projects {
     border-radius: 5px;
     border: 1px solid white;
     /* background-color: chartreuse; */
-    height: 150px;
+    height: 100px;
     width: 50%;
     min-width: 240px;
     padding: 5px;
@@ -201,7 +201,7 @@ button1-projects {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 15px;
     color: aliceblue;
     position: absolute;
     align-self: center;
@@ -213,5 +213,19 @@ button1-projects {
     background-color: rgba(255, 255, 255, 0.05);
     min-width: 300px;
   }
-  
+  .button-div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .button-div{
+    margin-bottom:80px;
+  }
 }
