@@ -108,7 +108,7 @@
 
 @media (max-width: 414px) {
   .main-div {
-    padding-top:50px;
+    padding-top:70px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -140,7 +140,7 @@
 
 @media (max-width: 375px) {
   .main-div {
-    padding-top:20px;
+    padding-top:60px;
     display: flex;
     flex-direction: column;
     justify-content: end;
