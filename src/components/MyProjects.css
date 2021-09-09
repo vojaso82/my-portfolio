@@ -262,13 +262,13 @@
     height: 40px;
     border-radius: 5px;
   }
-  
   .motion-button2-projects {
     height: 40px;
     border-radius: 5px;
   }
   .buttons-div-projects {
     margin-bottom: -5%;
+    margin-left:20px;
     display: flex;
     justify-content: space-between;
     height: 10%;
@@ -282,7 +282,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 100px;
+    width: 80px;
     height: 40px;
     border: 1px solid white;
     font-weight: 600;
