@@ -3,7 +3,7 @@ import React from 'react';
 const ParticlesConfig = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 60,
       "density": {
         "enable": true,
         "value_area": 400
