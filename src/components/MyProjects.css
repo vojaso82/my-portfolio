@@ -104,9 +104,9 @@
   display: flex;
   justify-content: space-between;
   height: 15%;
-  width:35%;
+  width:26%;
   padding-left: 75px;
-  max-width: 300px;
+  min-width: 270px;
   margin-right: 10px;
 }
 
@@ -134,6 +134,17 @@
 }
 
 @media (max-width: 1200px) {
+  .buttons-div-projects {
+    margin-top:10px;
+    margin-left:-15px;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    padding-left: 75px;
+    min-width: 270px;
+    margin-right: 10px;
+  }
+  
   .projects-div .a-links {
     display: flex;
     width: 40%;
@@ -155,6 +166,7 @@
 }
 
 @media (max-width: 850px) {
+  
   .projects-div .a-links {
     display: flex;
     width: 50%;
@@ -167,6 +179,7 @@
   /* .buttons-div-projects a {
     display: none;
   } */
+
   .projects-div {
     width: 90%;
     height: 100%;
