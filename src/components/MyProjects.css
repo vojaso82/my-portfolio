@@ -166,6 +166,28 @@
 }
 
 @media (max-width: 850px) {
+  .buttons-div-projects a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 130px;
+    height: 60px;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .buttons-div-projects {
+    margin-bottom: -5%;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    width:55%;
+    padding-left: 75px;
+    max-width: 300px;
+    margin-right: 10px;
+  }
   
   .projects-div .a-links {
     display: flex;
@@ -286,7 +308,7 @@
     justify-content: space-between;
     height: 10%;
     padding-left: 75px;
-    max-width: 300px;
+    min-width: 25px;
     margin-right: 10px;
   }
   .buttons-div-projects a {
