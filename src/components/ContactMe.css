@@ -228,3 +228,80 @@ button1-projects {
   }
   
 }
+
+
+@media (max-width: 360px) {
+  .contact-me-main-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    align-self: center;
+    left: 5%;
+    height: 110vh;
+    width: 50%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    min-width: 280px;
+  }
+  .h1-text {
+    /* background-color: rgb(107, 141, 141); */
+    width: 90%;
+    height: 10%;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs-div {
+    /* background-color: brown; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+  }
+  .inputs-div input {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* background-color: chartreuse; */
+    min-width: 240px;
+    height: 30px;
+    padding: 5px;
+  }
+  .inputs-div textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* background-color: chartreuse; */
+    height: 100px;
+    width: 50%;
+    min-width: 240px;
+    padding: 5px;
+    resize: none;
+  }
+  
+  .button-div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    width: 120px;
+    height: 40px;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom:140px;
+  }
+  
+}
