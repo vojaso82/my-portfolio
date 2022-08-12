@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../components/ContactMe.css'
 import { Spring } from 'react-spring/renderprops';
 import { motion } from 'framer-motion';
-import { useTrail, animated } from 'react-spring';
+import { animated } from 'react-spring';
 import emailjs from 'emailjs-com';
 
 function ContactMe() {
