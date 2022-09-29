@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import '../components/Home.css'
 import { Spring } from 'react-spring/renderprops';
-// import { FaBluetooth } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 

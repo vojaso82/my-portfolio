@@ -1,5 +1,3 @@
-import { slide as Menu } from 'react-burger-menu';
-
 let styles = {
     bmBurgerButton: {
       position: 'fixed',

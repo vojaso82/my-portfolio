@@ -1,8 +1,8 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import '../components/Home.css';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../components/MyProjects.css'
-import { useChain, animated, useTransition, useSpringRef, useSpring } from 'react-spring/renderprops';
+import { animated } from 'react-spring/renderprops';
 import { Spring } from 'react-spring/renderprops';
 import { motion } from 'framer-motion';
 

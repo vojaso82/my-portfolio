@@ -1,15 +1,11 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { slide as Menu } from 'react-burger-menu';
 import './Burger.css';
-import BurgerConfig from './BurgerConfig';
 import { FaHome } from 'react-icons/fa';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 import { RiContactsFill } from 'react-icons/ri';
 import { IoMdMailUnread } from 'react-icons/io';
-import { Spring } from 'react-spring/renderprops';
 import { useSpring, animated } from 'react-spring';
-import { motion } from 'framer-motion';
 
 
 function Burger() {

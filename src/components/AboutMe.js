@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../components/AboutMe.css'
 import { Spring } from 'react-spring/renderprops';
-import { useTrail, animated } from 'react-spring';
 import pdf from './VojislavZajaResume.pdf';
 import { motion } from 'framer-motion';
 
