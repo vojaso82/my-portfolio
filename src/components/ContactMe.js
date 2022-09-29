@@ -32,7 +32,6 @@ function sendEmail(e) {
 e.preventDefault();
     
 if(name.length > 0 && email.length > 0 && phone.length > 0 && text.length > 0){
-    // console.log(name.length,email,phone,text)
 //emailjs.sendForm('service_ji46uhq', 'template_chppd3c', e.target, 'user_ZyOxWspwe6RKIA4Y8K4xg')
 emailjs.sendForm('service_ji46uhq', 'template_chppd3c', e.target, 'QSoWACT4UMJu_13g_')
 
@@ -46,7 +45,7 @@ setPhone('')
 setText('')
 
 }, (error) => {
-// console.log(error.text);
+console.log("error", error);
 });
 }else{
     setMessage('Please fill out all fields')
