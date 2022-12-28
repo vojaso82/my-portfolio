@@ -4,7 +4,7 @@ import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 import ContactMe from './components/ContactMe';
-import ParticlesBackground from './components/ParticlesBackground';
+//import ParticlesBackground from './components/ParticlesBackground';
 import Burger from './components/Burger';
 
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Burger/>
-      <ParticlesBackground/>
+      {/* <ParticlesBackground/> */}
       <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={AboutMe} />

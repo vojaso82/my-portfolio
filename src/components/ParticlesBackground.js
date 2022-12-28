@@ -1,15 +1,15 @@
-import React from 'react';
-import '../App.css';
-import Particles from 'react-particles-js';
-import ParticlesConfig from './config/ParticlesConfig';
+// import React from 'react';
+// import '../App.css';
+// import Particles from 'react-particles-js';
+// import ParticlesConfig from './config/ParticlesConfig';
 
-function ParticlesBackground() {
+// function ParticlesBackground() {
 
-    return (
+//     return (
         
-            <Particles className="canvas" params={ParticlesConfig}></Particles>
+//             <Particles className="canvas" params={ParticlesConfig}></Particles>
     
-    )
-}
+//     )
+// }
 
-export default ParticlesBackground;
+// export default ParticlesBackground;
