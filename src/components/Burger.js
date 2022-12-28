@@ -10,7 +10,6 @@ import { useSpring, animated } from 'react-spring';
 
 function Burger() {
 const [toggle, setToggle] = useState(false);
-// const [downMenuVisible, setDownMenuVisible] = useState(false);
 
 const downMenuAnimation = useSpring({
   opacity: toggle ? 1 : 0,
