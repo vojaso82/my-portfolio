@@ -26,7 +26,7 @@ function AboutMe() {
             <div className="tools">
             <h3>Tools & Technologies</h3>
             <p>JavaScript  |  TypeScript  |  React.js  |  Node.js  |  GraphQL  |  AWS  |  Axios  |   JEST  </p>
-            <p>Express.js  |  MongoDB |  REST API's  |  Mongoose  |  JSON  |  CSS  |  HTML </p>
+            <p>Express.js  |  MongoDB |  REST API  |  Mongoose  | Jira | CSS  |  HTML </p>
              </div> 
             <div className="get-in-touch">
              <h3>Connect with me</h3>
