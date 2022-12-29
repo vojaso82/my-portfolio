@@ -78,7 +78,7 @@ nav {
 
 .burger-links div:hover > .links-name {
   opacity: 1;
-  transform: translateX(-110%);
+  transform: translateX(-109%);
   transition: all 0.3s ease-in;
 }
 

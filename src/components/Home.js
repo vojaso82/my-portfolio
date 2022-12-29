@@ -15,7 +15,7 @@ function Home() {
       <div className="home">
           <h1 className="my-name">Vojislav Zaja</h1>
             <h2 className="job-title"> Software Developer based in Miami</h2>
-            <p className="description">I love to create and design customer experiences in the digital channel.</p>
+            <p className="description">Thank you for visiting my portfolio webpage, and I hope you find my work interesting and relevant.</p>
       </div>
       <div className="buttons-div">
       <motion.div className='motion-button1'

@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "awesome-typescript-loader": "^5.2.1",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
     "emailjs-com": "^3.2.0",
@@ -20,6 +21,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
     "react-spring": "^8.0.27",
+    "source-map-loader": "^3.0.1",
     "tsparticles": "^1.33.3",
     "web-vitals": "^1.1.2"
   },
