@@ -9,6 +9,7 @@ import { useSpring, animated } from 'react-spring';
 
 
 function Burger() {
+
 const [toggle, setToggle] = useState(false);
 
 const downMenuAnimation = useSpring({
@@ -22,8 +23,7 @@ const burgerBackground = useSpring({
 
     return (
         <nav>       
-          <animated.div id="menuToggle" onClick={() => setToggle(!toggle)} style={burgerBackground}>
-          
+          <animated.div id="menuToggle" onClick={() => setToggle(!toggle)} style={burgerBackground}>   
                <input type="checkbox"/>
                <span id={toggle === false ? "span1" : "spanx1"}></span>
                <span id={toggle === false ? "span2" : "spanx2"}></span>

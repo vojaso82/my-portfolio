@@ -1,4 +1,4 @@
-let styles = {
+const styles = {
     bmBurgerButton: {
       position: 'fixed',
       width: '40px',

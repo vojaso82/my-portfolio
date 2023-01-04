@@ -5,25 +5,22 @@ import { Spring } from 'react-spring/renderprops';
 import pdf from './VojislavZajaResume.pdf';
 import { motion } from 'framer-motion';
 
-
 function AboutMe() {
 
     return (
-        <Spring 
+        <Spring
         from={{opacity:0, marginLeft:-500}}
         to={{opacity:1,marginLeft:0}}
         >
         {props => (
         <div style={props} className ="main-div-about-me">
          <div className="aboutme-div">
-            <p>I am a Full Stack Software Developer.</p>
-            <p>I worked as a Front End Web Developer Intern back in 2015. </p>
-            <p>Graduated from Ironhack boot camp in Miami in 2021.</p>
-            <p>Soon after finishing Ironhack I landed a job in Media Query Inc.</p>
-            <p></p>
-            <p>I enjoy spending time coding and designing projects.</p>
-            <p>Check out my work, my skills and get in touch with me.</p>
-           
+            <p>Hello and welcome to my portfolio!</p>
+            <p>I am a highly motivated and skilled software developer with a passion</p>  
+            <p>for creating intuitive and high-performing applications.</p>
+            <p>I am excited to continue growing as a software developer and I am open to new</p> 
+            <p>opportunities where I can utilize my skills and contribute to the success of a project.</p> 
+            <p>Thank you for visiting my portfolio and I hope you find my work and experience to be of interest.</p>
             <div className="tools">
             <h3>Tools & Technologies</h3>
             <p>JavaScript  |  TypeScript  |  React.js  |  Node.js  | GraphQL  |  AWS  |  Axios  |   JEST  </p>
@@ -32,9 +29,9 @@ function AboutMe() {
             <div className="get-in-touch">
              <h3>Connect with me</h3>
              <div className="links">
-             <a href="https://www.linkedin.com/in/vojislav-zaja/" target="_blank">LinkedIn</a>
-             <a href="https://github.com/vojaso82" target="_blank"> GitHub</a> 
-             <a href={pdf} target="_blank">Resume</a> 
+             <a href="https://www.linkedin.com/in/vojislav-zaja/" target="_blank" rel="noreferrer">LinkedIn</a>
+             <a href="https://github.com/vojaso82" target="_blank" rel="noreferrer"> GitHub</a> 
+             <a href={pdf} target="_blank" rel="noreferrer">Resume</a> 
              </div>
             </div>
          </div>  
