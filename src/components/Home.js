@@ -13,9 +13,9 @@ function Home() {
         {props => ( 
       <div style={props} className="main-div">
       <div className="home">
-          <h1 className="my-name">Hi there! My name is Vojislav Zaja and I am a software developer based in Miami.</h1>
-            {/* <h2 className="job-title"> Software Developer based in Miami</h2> */}
-            <p className="description">Thank you for visiting my portfolio webpage, and I hope you find my work interesting and relevant.</p>
+          <h1 className="my-name">Hi there!</h1>
+          <h1 className="my-name"> My name is Vojislav Zaja and I am a software developer based in Miami.</h1>
+          <p className="description">Thank you for visiting my portfolio webpage, and I hope you find my work interesting and relevant.</p>
       </div>
       <div className="buttons-div">
       <motion.div className='motion-button1'
