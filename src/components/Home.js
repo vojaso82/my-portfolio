@@ -18,6 +18,7 @@ function Home() {
           <p className="description">Thank you for visiting my portfolio webpage, and I hope you find my work interesting and relevant.</p>
       </div>
       <div className="buttons-div">
+        
       <motion.div className='motion-button1'
           whileHover={{
             scale:1.05,
