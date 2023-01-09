@@ -13,11 +13,11 @@
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.05);
   min-width: 350px;
-  padding-top:70px;
+  padding-top: 70px;
 }
 .aboutme-div p {
   margin-left: 8px;
-  padding:0;
+  padding: 0;
 }
 
 .tools {
@@ -149,7 +149,7 @@
 
 @media (max-width: 430px) {
   .main-div-about-me {
-    padding-top:10px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -165,13 +165,12 @@
     background-color: rgba(255, 255, 255, 0.05);
     min-width: 300px;
   }
-  
 }
 
 @media (max-width: 375px) {
   .main-div-about-me {
-    padding-top:0px;
-    margin-top:0px;
+    padding-top: 0px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -187,13 +186,12 @@
     background-color: rgba(255, 255, 255, 0.05);
     min-width: 300px;
   }
-  
 }
 
 @media (max-width: 375px) {
   .main-div-about-me {
-    padding-top:100px;
-    margin-top:0px;
+    padding-top: 100px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -209,5 +207,4 @@
     background-color: rgba(255, 255, 255, 0.05);
     min-width: 300px;
   }
-  
 }

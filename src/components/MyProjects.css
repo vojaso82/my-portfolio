@@ -33,63 +33,62 @@
   border-radius: 5px;
   padding: 0px;
   min-width: 200px;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
 }
 
-.a-links p{
-  display:none;
+.a-links p {
+  display: none;
 }
 
-.a-links:hover > p{
-  border-radius:5px;
-  display:flex;
+.a-links:hover > p {
+  border-radius: 5px;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  height:100%;
-  margin:0;
-  padding:0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background-color: rgb(138, 166, 226);
-  
 }
 
-.a-links:hover{
+.a-links:hover {
   background-color: rgb(36, 90, 90);
-  transition:all 1s ease-in-out;
-  display:flex;
+  transition: all 1s ease-in-out;
+  display: flex;
   justify-content: center;
   flex-direction: column;
-  scale:1.05;
-  transition:all .5s ease-in-out;
+  scale: 1.05;
+  transition: all 0.5s ease-in-out;
   background: none;
-  position:relative;
-  z-index:5;
+  position: relative;
+  z-index: 5;
 }
 
-#project1{
-  background-image:url('/src/Images/NatureAll.png');
+#project1 {
+  background-image: url("/src/Images/NatureAll.png");
 }
-#project2{
-  background-image:url('/src/Images/NutriYoga.png');
+#project2 {
+  background-image: url("/src/Images/NutriYoga.png");
 }
-#project3{
-  background-image:url('/src/Images/Grandmas.png');
+#project3 {
+  background-image: url("/src/Images/Grandmas.png");
 }
-#project4{
-  background-image:url('/src/Images/Reggie.png');
+#project4 {
+  background-image: url("/src/Images/Reggie.png");
 }
-#project5{
-  background-image:url('/src/Images/Ars.png');
+#project5 {
+  background-image: url("/src/Images/Ars.png");
 }
-#project6{
-  background-image:url('/src/Images/Kita.png');
+#project6 {
+  background-image: url("/src/Images/Kita.png");
 }
-#project7{
-  background-image:url('/src/Images/Church.png');
+#project7 {
+  background-image: url("/src/Images/Church.png");
 }
-#project8{
-  background-image:url('/src/Images/Gianni.png');
+#project8 {
+  background-image: url("/src/Images/Gianni.png");
 }
 
 .projects-div img {
@@ -104,11 +103,10 @@
   display: flex;
   justify-content: space-between;
   height: 15%;
-  width:26%;
+  width: 26%;
   padding-left: 75px;
   min-width: 270px;
   margin-right: 10px;
-  
 }
 
 .buttons-div-projects a {
@@ -136,8 +134,8 @@
 
 @media (max-width: 1200px) {
   .buttons-div-projects {
-    margin-top:10px;
-    margin-left:-15px;
+    margin-top: 10px;
+    margin-left: -15px;
     display: flex;
     justify-content: space-between;
     height: 20%;
@@ -145,7 +143,7 @@
     min-width: 270px;
     margin-right: 10px;
   }
-  
+
   .projects-div .a-links {
     display: flex;
     width: 40%;
@@ -184,12 +182,12 @@
     display: flex;
     justify-content: space-between;
     height: 15%;
-    width:55%;
+    width: 55%;
     padding-left: 75px;
     max-width: 300px;
     margin-right: 10px;
   }
-  
+
   .projects-div .a-links {
     display: flex;
     width: 50%;
@@ -235,7 +233,7 @@
     display: flex;
     justify-content: space-between;
     height: 15%;
-    width:55%;
+    width: 55%;
     padding-left: 75px;
     max-width: 300px;
     margin-right: 10px;
@@ -259,7 +257,7 @@
 
 @media (max-width: 430px) {
   .projects-main-div {
-    margin-top:-40px;
+    margin-top: -40px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -274,12 +272,11 @@
     background-color: rgba(255, 255, 255, 0.05);
     min-width: 380px;
   }
-
 }
 
 @media (max-width: 414px) {
   .projects-main-div {
-    margin-top:-50px;
+    margin-top: -50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -304,7 +301,7 @@
   }
   .buttons-div-projects {
     margin-bottom: 15%;
-    margin-left:20px;
+    margin-left: 20px;
     display: flex;
     justify-content: space-between;
     height: 10%;
@@ -313,7 +310,7 @@
     margin-right: 10px;
   }
   .buttons-div-projects a {
-    margin-left:35px;
+    margin-left: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,7 +336,7 @@
 
 @media (max-width: 360px) {
   .projects-main-div {
-    margin-top:0px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -364,7 +361,7 @@
   }
   .buttons-div-projects {
     margin-bottom: 15%;
-    margin-left:20px;
+    margin-left: 20px;
     display: flex;
     justify-content: space-between;
     height: 10%;
@@ -373,7 +370,7 @@
     margin-right: 10px;
   }
   .buttons-div-projects a {
-    margin-left:35px;
+    margin-left: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
