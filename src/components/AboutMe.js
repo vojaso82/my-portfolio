@@ -14,32 +14,29 @@ function AboutMe() {
       {(props) => (
         <div style={props} className="main-div-about-me">
           <div className="aboutme-div">
-            <p>Hello and welcome to my portfolio!</p>
+            <p>Welcome to my portfolio!</p>
             <p>
-              I am a highly motivated and skilled software developer with a
-              passion
+              I am a driven and experienced software engineer with a strong passion for building intuitive,
             </p>
-            <p>for creating intuitive and high-performing applications.</p>
+            <p>high-performance applications.</p>
             <p>
-              I am excited to continue growing as a software developer and I am
-              open to new
+              I am always eager to enhance my skills and contribute to impactful projects.
             </p>
             <p>
-              opportunities where I can utilize my skills and contribute to the
-              success of a project.
+               I’m open to new opportunities where I can leverage my expertise to help drive success..
             </p>
             <p>
-              Thank you for visiting my portfolio and I hope you find my work
-              and experience to be of interest.
+              Thank you for taking the time to explore my portfolio. 
+              I hope my work and experience resonate with your interests.
             </p>
             <div className="tools">
               <h3>Tools & Technologies</h3>
               <p>
-                JavaScript | TypeScript | React.js | Node.js | GraphQL | AWS |
-                Axios | JEST{" "}
+                JavaScript | TypeScript | Python |React.js | Node.js | GraphQL | AWS | 
+                Axios | JEST | Pytest{" "}
               </p>
               <p>
-                Material UI | Express.js | MongoDB | REST API | Mongoose | Jira
+                Material UI | Express.js | MongoDB | DynamoDB | SQL | REST API | Mongoose | Jira | Azure DevOps
                 | Agile | CSS | HTML{" "}
               </p>
             </div>

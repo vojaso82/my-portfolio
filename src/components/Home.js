@@ -13,15 +13,13 @@ function Home() {
       {(props) => (
         <div style={props} className="main-div">
           <div className="home">
-            <h1 className="my-name">Hi there!</h1>
+            <h1 className="my-name">Hey there!</h1>
             <h1 className="my-name">
               {" "}
-              My name is Vojislav Zaja and I am a software developer based in
-              Miami.
+              I'm Vojislav Zaja, a software engineer based in the vibrant city of Miami.
             </h1>
             <p className="description">
-              Thank you for visiting my portfolio webpage, and I hope you find
-              my work interesting and relevant.
+            Thanks for stopping by my portfolio — I hope you find my projects as exciting and innovative as I do!
             </p>
           </div>
           <div className="buttons-div">
